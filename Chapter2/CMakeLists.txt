@@ -3,4 +3,4 @@ project(Chapter2 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Chapter2 main.c)
+add_executable(Chapter2 main.c exercices.h)

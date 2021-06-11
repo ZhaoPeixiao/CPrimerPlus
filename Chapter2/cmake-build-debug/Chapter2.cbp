@@ -74,6 +74,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/workshop/CPrimerPlus/Chapter2/exercices.h">
+			<Option target="Chapter2"/>
+		</Unit>
 		<Unit filename="D:/workshop/CPrimerPlus/Chapter2/main.c">
 			<Option target="Chapter2"/>
 		</Unit>

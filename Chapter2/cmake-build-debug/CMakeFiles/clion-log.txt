@@ -1,16 +1,4 @@
 "G:\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=G:/MinGW/bin/make.exe -DCMAKE_C_COMPILER=G:/MinGW/bin/mingw32-gcc.exe -DCMAKE_CXX_COMPILER=G:/MinGW/bin/mingw32-g++.exe -G "CodeBlocks - MinGW Makefiles" D:\workshop\CPrimerPlus\Chapter2
--- The C compiler identification is GNU 8.2.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: G:/MinGW/bin/mingw32-gcc.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
 -- Configuring done
 -- Generating done
-CMake Warning:
-  Manually-specified variables were not used by the project:
-
-    CMAKE_CXX_COMPILER
-
-
 -- Build files have been written to: D:/workshop/CPrimerPlus/Chapter2/cmake-build-debug
