@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Workshop/CPrimerPlus/Chapter4/exercise.h
+stdio.h
+-
+string.h
+-
+float.h
+-
+
+D:/Workshop/CPrimerPlus/Chapter4/main.c
+stdio.h
+-
+exercise.h
+D:/Workshop/CPrimerPlus/Chapter4/exercise.h
+
