@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Chapter6"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter6">
+				<Option output="D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug/Chapter6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="g:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="g:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="g:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter6"/>
+					<CompileFile command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter6/fast">
+				<Option output="D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug/Chapter6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="g:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="g:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="g:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter6/fast"/>
+					<CompileFile command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter6/exercise.h">
+			<Option target="Chapter6"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter6/main.c">
+			<Option target="Chapter6"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
