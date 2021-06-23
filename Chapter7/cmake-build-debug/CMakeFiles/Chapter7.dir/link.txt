@@ -1,0 +1,3 @@
+"G:\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Chapter7.dir/objects.a
+G:\MinGW\bin\ar.exe cr CMakeFiles\Chapter7.dir/objects.a @CMakeFiles\Chapter7.dir\objects1.rsp
+G:\MinGW\bin\mingw32-gcc.exe -g -Wl,--whole-archive CMakeFiles\Chapter7.dir/objects.a -Wl,--no-whole-archive -o Chapter7.exe -Wl,--out-implib,libChapter7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Chapter7.dir\linklibs.rsp
