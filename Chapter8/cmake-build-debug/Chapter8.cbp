@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Chapter8"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter8">
+				<Option output="D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug/Chapter8.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="g:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="g:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="g:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter8"/>
+					<CompileFile command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter8/fast">
+				<Option output="D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug/Chapter8.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="g:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="g:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="g:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter8/fast"/>
+					<CompileFile command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter8/exercise01.c">
+			<Option target="Chapter8"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter8/exercise02.c">
+			<Option target="Chapter8"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter8/exercise03.c">
+			<Option target="Chapter8"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter8/exercise04.c">
+			<Option target="Chapter8"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter8/exercise05.c">
+			<Option target="Chapter8"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter8/exercise06.c">
+			<Option target="Chapter8"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter8/exercise07.c">
+			<Option target="Chapter8"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter8/exercise08.c">
+			<Option target="Chapter8"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter8/main.c">
+			<Option target="Chapter8"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter8/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
