@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Chapter17"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter17">
+				<Option output="D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug/Chapter17.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="g:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="g:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="g:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter17"/>
+					<CompileFile command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter17/fast">
+				<Option output="D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug/Chapter17.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="g:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="g:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="g:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter17/fast"/>
+					<CompileFile command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/MinGW/bin/make.exe -f &quot;D:/Workshop/CPrimerPlus/Chapter17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/binary_search.c">
+			<Option target="Chapter17"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/binary_search.h">
+			<Option target="Chapter17"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/exercise01.c">
+			<Option target="Chapter17"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/exercise02.c">
+			<Option target="Chapter17"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/exercise03.c">
+			<Option target="Chapter17"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/exercise04.c">
+			<Option target="Chapter17"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/exercise05.c">
+			<Option target="Chapter17"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/exercise06.c">
+			<Option target="Chapter17"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/exercise07.c">
+			<Option target="Chapter17"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/exercise08.c">
+			<Option target="Chapter17"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/film.c">
+			<Option target="Chapter17"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/film.h">
+			<Option target="Chapter17"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/list.c">
+			<Option target="Chapter17"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/list.h">
+			<Option target="Chapter17"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/list2.c">
+			<Option target="Chapter17"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/list2.h">
+			<Option target="Chapter17"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/main.c">
+			<Option target="Chapter17"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/pettree.c">
+			<Option target="Chapter17"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/pettree.h">
+			<Option target="Chapter17"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/queue.c">
+			<Option target="Chapter17"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/queue.h">
+			<Option target="Chapter17"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/stack.c">
+			<Option target="Chapter17"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/stack.h">
+			<Option target="Chapter17"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/tree.c">
+			<Option target="Chapter17"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/tree.h">
+			<Option target="Chapter17"/>
+		</Unit>
+		<Unit filename="D:/Workshop/CPrimerPlus/Chapter17/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
